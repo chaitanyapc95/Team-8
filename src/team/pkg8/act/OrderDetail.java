@@ -14,6 +14,7 @@ public class OrderDetail {
     String taxStatus;
     
     Order order1=new Order();
+    Item item1=new Item();
     
     public void calcSubTotal(){
         System.out.println("SubTotal");
