@@ -13,6 +13,8 @@ public class OrderDetail {
     int quantity;
     String taxStatus;
     
+    Order order1=new Order();
+    
     public void calcSubTotal(){
         System.out.println("SubTotal");
     }
