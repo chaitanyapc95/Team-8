@@ -14,6 +14,7 @@ import java.util.Date;
 public class Order {
     Date date;
     String status;
+    Customer cust=new Customer();
     public void calcSubTotal(){
         System.out.println("SubTotal");
     }
