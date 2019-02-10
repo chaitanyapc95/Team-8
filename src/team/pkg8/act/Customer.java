@@ -16,13 +16,19 @@ public class Customer {
     Address address;
 
     private static class Address {
+        private final String stno;
+        private final String city;
+        private final String country;
+        private final String province;
+        private final String pin;
 
-        public Address() {
-            String sno;
-            String pin;
-            String city;
-            String pro;
-            String con;
+        public Address(String stno,String pin,String city,String province,String country) {
+            this.stno=stno;
+            this.city=city;
+            this.country=country;
+            this.province=province;
+            this.pin=pin;
+            
        
         }
     }
