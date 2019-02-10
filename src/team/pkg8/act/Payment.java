@@ -12,5 +12,6 @@ package team.pkg8.act;
 public class Payment 
 {
 float Amount;
+Order o1=new Order();
     
 }
